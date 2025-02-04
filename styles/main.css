@@ -78,14 +78,15 @@ body {
 .hello-sec .hello-box .btn {
     width: fit-content;
     font-size: 11px;
+    padding: 5px 20px;
 }
 .hello-sec .hello-box .icons {
     display: flex;
-    padding-top: 15px;
+    padding-top: 25px;
     gap: 10px;
 }
 .hello-sec .hello-box .icons .icon {
-    padding: 10px 15px;
+    padding: 15px 20px;
     font-size: 10px;
 }
 /* end hello-sec */
