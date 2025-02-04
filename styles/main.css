@@ -130,3 +130,19 @@ body {
     color: pink;
 }
 /* end services */
+
+/* start footer */
+.footer {
+    background-color: #87CEEB;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+.footer .banner-text {
+    color: white;
+    font-size: 14px;
+}
+.footer .highlight {
+    color: pink;
+}
+/* end footer */
