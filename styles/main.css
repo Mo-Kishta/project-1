@@ -1,0 +1,36 @@
+/* start valiables */
+
+/* end valiables */
+/* start global rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+/* small */
+@media (min-width: 768px) {
+    .container {
+        width: 970;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* end global rules */
