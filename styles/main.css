@@ -18,7 +18,7 @@ body {
 /* small */
 @media (min-width: 768px) {
     .container {
-        width: 970;
+        width: 970px;
     }
 }
 /* medium */
@@ -135,9 +135,12 @@ body {
 .footer {
     background-color: #87CEEB;
     text-align: center;
+}
+.footer .banner {
     padding: 10px;
     font-family: Arial, sans-serif;
 }
+
 .footer .banner-text {
     color: white;
     font-size: 14px;
