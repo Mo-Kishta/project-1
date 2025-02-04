@@ -77,7 +77,7 @@ body {
 }
 .hello-sec .hello-box .btn {
     width: fit-content;
-    font-size: 11px;
+    font-size: 13px;
     padding: 5px 20px;
 }
 .hello-sec .hello-box .icons {
@@ -87,6 +87,46 @@ body {
 }
 .hello-sec .hello-box .icons .icon {
     padding: 15px 20px;
-    font-size: 10px;
+    font-size: 15px;
 }
 /* end hello-sec */
+
+/* start services */
+.services {
+    height: 85vh;
+    position: relative;
+}
+.services .head-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    padding-top: 100px;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: #a2d9ff;
+    border-radius: 50%;
+}
+.button {
+    font-size: 25px;
+    padding: 8px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white;
+}
+.services .cards {
+    position: absolute;
+    top: 30%;
+}
+.services .iconn {
+    font-size: 80px;
+}
+.services .iconn2 {
+    font-size: 80px;
+    color: pink;
+}
+/* end services */
