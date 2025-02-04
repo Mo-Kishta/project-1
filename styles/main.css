@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Quicksand", serif;
 }
 .container {
     margin-left: auto;
@@ -34,3 +34,52 @@ body {
     }
 }
 /* end global rules */
+
+/* start hello-sec */
+.hello-sec {
+    padding-top: 0;
+    width: inherit;
+    height: 85vh;
+    background-image: url(../assets/first-sec.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hello-sec .hello-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    padding-left: 120px;
+}
+.hello-sec .hello-box .text .main-text {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+.hello-sec .hello-box .text .sub-text:nth-child(1) {
+    line-height: 1;
+}
+.hello-sec .hello-box .text .sub-text {
+    line-height: 1.6;
+    font-weight: bold;
+    font-size: 17px;
+}
+.hello-sec .hello-box .text {
+    padding-bottom: 10px;
+}
+.hello-sec .hello-box .btn {
+    width: fit-content;
+    font-size: 11px;
+}
+.hello-sec .hello-box .icons {
+    display: flex;
+    padding-top: 15px;
+    gap: 10px;
+}
+.hello-sec .hello-box .icons .icon {
+    padding: 10px 15px;
+    font-size: 10px;
+}
+/* end hello-sec */
