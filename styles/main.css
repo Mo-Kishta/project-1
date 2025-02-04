@@ -35,6 +35,12 @@ body {
 }
 /* end global rules */
 
+/* start nav-bar */
+.navbar-brand {
+    font-weight: bold;
+}
+/* end nav-bar */
+
 /* start hello-sec */
 .hello-sec {
     padding-top: 0;
